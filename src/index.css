@@ -1,0 +1,52 @@
+html,
+body,
+#root,
+.Wordl {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Wordl {
+  padding: 1rem;
+  background-color: #333333;
+  color: #AAAAAA;
+}
+
+.propositions {
+  border-collapse: collapse;
+}
+
+.letters {
+  display: flex;
+}
+
+.letter {
+  border: 1px solid #AAAAAA;
+}
+
+.letter-wrong,
+.letter-misplaced,
+.letter-right {
+  color: #333333;
+}
+
+.letter-wrong {
+  background-color: #777777;
+}
+
+.letter-misplaced {
+  background-color: yellow;
+}
+
+.letter-right {
+  background-color: green;
+}
+
